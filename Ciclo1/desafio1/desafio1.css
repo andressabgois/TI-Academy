@@ -1,0 +1,37 @@
+
+main{
+	width: 500px;
+	height: 350px;
+	margin: auto;
+	margin-top: 100px ;
+	background-color: #20B2AA;
+	display: flex;
+	padding: 5px;	
+	justify-content: space-between;
+}
+
+.quadrado{
+	width: 150px;
+	height: 150px;
+	background-color: #BA55D3;
+	color: #000; 
+	font-family: verdana, arial, cursive;
+	font-weight: bold;
+	display: flex;
+	justify-content: center; 
+	align-items: center ;
+}
+
+.circulo{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	margin-top: 200px;
+	background-color: #FFC125;
+	color: #000; 
+	font-family: verdana, arial, cursive;
+	font-weight: bold;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
