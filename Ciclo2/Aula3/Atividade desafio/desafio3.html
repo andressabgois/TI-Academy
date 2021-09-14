@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="desafio3.js"></script>
+	<title>Desafio3</title>
+</head>
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}	
+
+	body{
+		width: 400px;
+		height: 170px;
+		margin-top: 20px;
+		margin-left: 35%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border:1px solid gray;
+	
+	}
+
+	div{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#btn{
+		background-color: #3CB371;
+		color: #fff;
+		font-family: verdana, arial, cursive;
+		font-size: 15px;
+		padding: 9px;
+		border-radius: 3px;
+		border: none;
+		margin-top: 10px;
+		margin-right: 150px;
+	}
+
+	
+</style>
+
+<body>
+	<main>
+		<div>
+			<p>Dígite o valor 1:  </p>
+				<input  id="v1"  class="box" type="text" value="" name="valor1">
+		</div>
+		<div>
+			<p>Dígite o valor 2:  </p>
+				<input  id="v2" class="box" type="text" value="" name="valor2">
+		</div>
+		<div>	
+			<p class="aln">Informe o resultado:</p>
+				<input id="s" class="aln1" type="text" value="" name="resultado" >
+		</div>
+		<div>	
+			<input type="button" id="btn" name="btn" value="CONFIRMAR RESULTADO">
+		</div>
+	</main>
+</body>
+</html>
